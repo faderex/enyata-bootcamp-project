@@ -6,6 +6,7 @@ const submit = document
     const email = document.getElementById("email").value;
     const error = document.querySelector(".error");
 
+    //Checks if either the name or email field is empty by trimming the values and comparing them to an empty string
     if (name.trim() === "" || email.trim() === "") {
       error.style.display = "block";
 
